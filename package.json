@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cerradura-iot-timer",
+        "scope": null,
+        "escapedName": "cerradura-iot-timer",
+        "name": "cerradura-iot-timer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/alan/Documentos/domoto-cli"
+    ]
+  ],
+  "_from": "cerradura-iot-timer@latest",
+  "_id": "cerradura-iot-timer@2.0.0",
+  "_inCache": true,
+  "_location": "/cerradura-iot-timer",
+  "_nodeVersion": "9.6.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cerradura-iot-timer_2.0.0_1520955620328_0.8505841371315297"
+  },
+  "_npmUser": {
+    "name": "fran-fico",
+    "email": "franf3895@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cerradura-iot-timer",
+    "scope": null,
+    "escapedName": "cerradura-iot-timer",
+    "name": "cerradura-iot-timer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cerradura-iot-timer/-/cerradura-iot-timer-2.0.0.tgz",
+  "_shasum": "cda89e214d9a4392092e27cda6cd96b2d3cd8725",
+  "_shrinkwrap": null,
+  "_spec": "cerradura-iot-timer",
+  "_where": "/home/alan/Documentos/domoto-cli",
+  "author": {
+    "name": "Franco Fico"
+  },
+  "bin": {
+    "domoto": "DomotoTimerLock.js"
+  },
+  "dependencies": {
+    "delay": "^2.0.0",
+    "domoto": "^1.1.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "description": "Plugin para la aplicación de domoto con un timer para la cerradura IoT",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-yXikJM3v6x+BmySiUBHSuN2vF9sQVwz57Rh/aSMII/kLQ1lB2M7K5yT02UuFce1CUr61GsIs61qkPw2MTNbkYA==",
+    "shasum": "cda89e214d9a4392092e27cda6cd96b2d3cd8725",
+    "tarball": "https://registry.npmjs.org/cerradura-iot-timer/-/cerradura-iot-timer-2.0.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 8407
+  },
+  "gitHead": "02e98ae18f1f1976a546cfbee7ffce57e12ffcb4",
+  "keywords": [
+    "domotica",
+    "domoto",
+    "domoto-extension"
+  ],
+  "license": "ISC",
+  "main": "DomotoTimerLock.js",
+  "maintainers": [
+    {
+      "name": "fran-fico",
+      "email": "franf3895@gmail.com"
+    }
+  ],
+  "name": "cerradura-iot-timer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "2.0.0"
+}
