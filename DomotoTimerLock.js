@@ -14,13 +14,15 @@ module.exports = class DomotoTimerLock extends Domoto {
     this.itemMenu.iconLeft = 'clock';
 
     const view = this.addView(viewPath);
+	
     view.on('load', this._onLoadView.bind(this));
 
   }
 
   _onLoadView(view) {
 
-	const controller = new TimerController(view);
+	const lock = this.getModule('cerradura-iot');
+	const controller = new TimerController(view, lock);
     this.itemMenu.on('click', this.viewManager.show(view));
   }
 
